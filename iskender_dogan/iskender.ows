@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="iskender" version="2.0">
+	<nodes>
+		<node id="0" name="Data Sets" position="(180.0, 318.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owdatasets.OWDataSets" title="Data Sets" version="" />
+		<node id="1" name="FreeViz" position="(366.0, 286.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owfreeviz.OWFreeViz" title="FreeViz" version="" />
+		<node id="2" name="Save Data" position="(359.0, 404.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owsave.OWSave" title="Save Data" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="2" source_channel="Data" source_node_id="0" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'selected_id': ('core', 'wine.tab'), 'splitter_state': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01,\x00\x00\x00\xc8\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'header_state': b"\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\xa4\x00\x00\x00\x07\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00'\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x89\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00", 'auto_commit': False, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00\xdf\x00\x00\x00H\x00\x00\x04r\x00\x00\x02n\x00\x00\x00\xe7\x00\x00\x00g\x00\x00\x04j\x00\x00\x02f\x00\x00\x00\x00\x00\x00\x00\x00\x05V', '__version__': 1}</properties>
+		<properties format="pickle" node_id="1">gAN9cQAoWAYAAAByYWRpdXNxAUsAWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQJDMgHZ0MsAAgAA
+AAABIAAAABUAAARPAAACqAAAASgAAAA0AAAERwAAAqAAAAAAAAAAAAVWcQNYEAAAAGNvbnRleHRf
+c2V0dGluZ3NxBF1xBWNPcmFuZ2Uud2lkZ2V0cy5zZXR0aW5ncwpDb250ZXh0CnEGKYFxB31xCChY
+BgAAAHZhbHVlc3EJfXEKKFgFAAAAZ3JhcGhxC31xDChYCgAAAGF0dHJfc2hhcGVxDU5K/v///4Zx
+DlgKAAAAYXR0cl9sYWJlbHEPTkr+////hnEQWAoAAABhdHRyX2NvbG9ycRFYBAAAAFdpbmVxEktl
+hnETWAkAAABhdHRyX3NpemVxFE5K/v///4ZxFXVYCwAAAF9fdmVyc2lvbl9fcRZLAnVYBAAAAHRp
+bWVxF0dB1peYmxypP1gKAAAAYXR0cmlidXRlc3EYfXEZKFgJAAAATWFnbmVzaXVtcRpLAlgHAAAA
+UHJvbGluZXEbSwJYEQAAAEFsY2FsaW5pdHkgb2YgYXNocRxLAlgKAAAATWFsaWMgQWNpZHEdSwJY
+BwAAAEFsY29ob2xxHksCaBJLAVgUAAAATm9uZmxhdmFub2lkIHBoZW5vbHNxH0sCWBwAAABPRDI4
+MC9PRDMxNSBvZiBkaWx1dGVkIHdpbmVzcSBLAlgKAAAARmxhdmFub2lkc3EhSwJYDwAAAFByb2Fu
+dGhvY3lhbmluc3EiSwJYDQAAAFRvdGFsIHBoZW5vbHNxI0sCWAMAAABIdWVxJEsCWAMAAABBc2hx
+JUsCWA8AAABDb2xvciBpbnRlbnNpdHlxJksCdVgFAAAAbWV0YXNxJ31xKHViYVgLAAAAYXV0b19j
+b21taXRxKYhoC31xKihYCwAAAGFscGhhX3ZhbHVlcStL/1gNAAAAY2xhc3NfZGVuc2l0eXEsiVgL
+AAAAaml0dGVyX3NpemVxLUsAWAsAAABzaG93X2xlZ2VuZHEuiFgRAAAAdG9vbHRpcF9zaG93c19h
+bGxxL4lYEwAAAGxhYmVsX29ubHlfc2VsZWN0ZWRxMIlYCQAAAHNob3dfZ3JpZHExiVgRAAAAaml0
+dGVyX2NvbnRpbnVvdXNxMohYDQAAAHNob3dfcmVnX2xpbmVxM4lYCwAAAHBvaW50X3dpZHRocTRL
+FHVYDgAAAGluaXRpYWxpemF0aW9ucTVLAGgWSwJ1Lg==
+</properties>
+		<properties format="literal" node_id="2">{'last_filter': 'Tab-separated values (*.tab *.tsv *.tab.gz *.tsv.gz *.tab.bz2 *.tsv.bz2 *.tab.xz *.tsv.xz)', 'last_dir': 'C:/Users/User/Desktop/iskender_dogan', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x022\x00\x00\x01"\x00\x00\x03#\x00\x00\x01\x9e\x00\x00\x025\x00\x00\x01&lt;\x00\x00\x03 \x00\x00\x01\x9b\x00\x00\x00\x00\x00\x00\x00\x00\x05V', 'auto_save': True, '__version__': 1}</properties>
+	</node_properties>
+</scheme>
