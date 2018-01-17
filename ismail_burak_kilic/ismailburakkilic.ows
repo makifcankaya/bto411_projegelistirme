@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="ismailburakkilic" version="2.0">
+	<nodes>
+		<node id="0" name="Data Sets" position="(261.0, 130.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owdatasets.OWDataSets" title="Data Sets" version="" />
+		<node id="1" name="Save Data" position="(505.0, 129.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owsave.OWSave" title="Save Data" version="" />
+		<node id="2" name="FreeViz" position="(442.0, 278.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owfreeviz.OWFreeViz" title="FreeViz" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="2" source_channel="Data" source_node_id="0" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'auto_commit': False, 'header_state': b"\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\xa4\x00\x00\x00\x07\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00'\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x89\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00", 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00\xdc\x00\x00\x00M\x00\x00\x04o\x00\x00\x02s\x00\x00\x00\xe4\x00\x00\x00l\x00\x00\x04g\x00\x00\x02k\x00\x00\x00\x00\x00\x00\x00\x00\x05V', 'selected_id': 'core\\bank-additional.tab', 'splitter_state': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01,\x00\x00\x00\xc8\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 1}</properties>
+		<properties format="literal" node_id="1">{'auto_save': True, 'last_dir': 'C:/Users/Burak/Desktop', 'last_filter': 'Tab-separated values (*.tab *.tsv *.tab.gz *.tsv.gz *.tab.bz2 *.tsv.bz2 *.tab.xz *.tsv.xz)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x022\x00\x00\x01"\x00\x00\x03-\x00\x00\x01\xa8\x00\x00\x02:\x00\x00\x01A\x00\x00\x03%\x00\x00\x01\xa0\x00\x00\x00\x00\x00\x00\x00\x00\x05V', '__version__': 1}</properties>
+		<properties format="pickle" node_id="2">gAN9cQAoWAsAAABhdXRvX2NvbW1pdHEBiFgOAAAAaW5pdGlhbGl6YXRpb25xAksAWAYAAAByYWRp
+dXNxA0sAWBMAAABzYXZlZFdpZGdldEdlb21ldHJ5cQRDMgHZ0MsAAgAAAAABRwAAAC4AAAR2AAAC
+wQAAAU8AAABNAAAEbgAAArkAAAAAAAAAAAVWcQVYBQAAAGdyYXBocQZ9cQcoWAsAAABhbHBoYV92
+YWx1ZXEIS4JYDQAAAGNsYXNzX2RlbnNpdHlxCYlYEQAAAGppdHRlcl9jb250aW51b3VzcQqIWAsA
+AABqaXR0ZXJfc2l6ZXELSwBYEwAAAGxhYmVsX29ubHlfc2VsZWN0ZWRxDIhYCwAAAHBvaW50X3dp
+ZHRocQ1LClgJAAAAc2hvd19ncmlkcQ6JWAsAAABzaG93X2xlZ2VuZHEPiFgNAAAAc2hvd19yZWdf
+bGluZXEQiVgRAAAAdG9vbHRpcF9zaG93c19hbGxxEYl1WAsAAABfX3ZlcnNpb25fX3ESSwJYEAAA
+AGNvbnRleHRfc2V0dGluZ3NxE11xFGNPcmFuZ2Uud2lkZ2V0cy5zZXR0aW5ncwpDb250ZXh0CnEV
+KYFxFn1xFyhYBAAAAHRpbWVxGEdB1peabW+60FgGAAAAdmFsdWVzcRl9cRooaAZ9cRsoWAoAAABh
+dHRyX2NvbG9ycRxYAQAAAHlxHUtlhnEeWAoAAABhdHRyX2xhYmVscR9OSv7///+GcSBYCgAAAGF0
+dHJfc2hhcGVxIU5K/v///4ZxIlgJAAAAYXR0cl9zaXplcSNOSv7///+GcSR1aBJLAnVYCgAAAGF0
+dHJpYnV0ZXNxJX1xJihYAwAAAGFnZXEnSwJYAwAAAGpvYnEoSwFYBwAAAG1hcml0YWxxKUsBWAkA
+AABlZHVjYXRpb25xKksBWAcAAABkZWZhdWx0cStLAVgHAAAAaG91c2luZ3EsSwFYBAAAAGxvYW5x
+LUsBWAcAAABjb250YWN0cS5LAVgFAAAAbW9udGhxL0sBWAsAAABkYXlfb2Zfd2Vla3EwSwFYCAAA
+AGR1cmF0aW9ucTFLAlgIAAAAY2FtcGFpZ25xMksCWAUAAABwZGF5c3EzSwJYCAAAAHByZXZpb3Vz
+cTRLAlgIAAAAcG91dGNvbWVxNUsBWAwAAABlbXAudmFyLnJhdGVxNksCWA4AAABjb25zLnByaWNl
+LmlkeHE3SwJYDQAAAGNvbnMuY29uZi5pZHhxOEsCWAkAAABldXJpYm9yM21xOUsCWAsAAABuci5l
+bXBsb3llZHE6SwJoHUsBdVgFAAAAbWV0YXNxO31xPHViYXUu
+</properties>
+	</node_properties>
+</scheme>
