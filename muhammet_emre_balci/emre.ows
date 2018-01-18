@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="emre" version="2.0">
+	<nodes>
+		<node id="0" name="Data Sets" position="(138.0, 247.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owdatasets.OWDataSets" title="Data Sets" version="" />
+		<node id="1" name="FreeViz" position="(395.0, 201.0)" project_name="Orange3" qualified_name="Orange.widgets.visualize.owfreeviz.OWFreeViz" title="FreeViz" version="" />
+		<node id="2" name="Save Data" position="(287.0, 334.0)" project_name="Orange3" qualified_name="Orange.widgets.data.owsave.OWSave" title="Save Data" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="Data" sink_node_id="1" source_channel="Data" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="Data" sink_node_id="2" source_channel="Data" source_node_id="0" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'__version__': 1, 'splitter_state': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01,\x00\x00\x00\xc8\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x00\xdf\x00\x00\x00H\x00\x00\x04r\x00\x00\x02n\x00\x00\x00\xe7\x00\x00\x00g\x00\x00\x04j\x00\x00\x02f\x00\x00\x00\x00\x00\x00\x00\x00\x05V', 'selected_id': ('core', 'forestfires.tab'), 'header_state': b"\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x02\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\xa4\x00\x00\x00\x07\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00'\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x89\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00", 'auto_commit': False}</properties>
+		<properties format="pickle" node_id="1">gAN9cQAoWAYAAAByYWRpdXNxAUsAWA4AAABpbml0aWFsaXphdGlvbnECSwBYCwAAAF9fdmVyc2lv
+bl9fcQNLAlgFAAAAZ3JhcGhxBH1xBShYDQAAAHNob3dfcmVnX2xpbmVxBolYEwAAAGxhYmVsX29u
+bHlfc2VsZWN0ZWRxB4lYCwAAAHBvaW50X3dpZHRocQhLFFgRAAAAaml0dGVyX2NvbnRpbnVvdXNx
+CYhYCwAAAGppdHRlcl9zaXplcQpLAFgNAAAAY2xhc3NfZGVuc2l0eXELiVgRAAAAdG9vbHRpcF9z
+aG93c19hbGxxDIlYCwAAAGFscGhhX3ZhbHVlcQ1L/1gJAAAAc2hvd19ncmlkcQ6JWAsAAABzaG93
+X2xlZ2VuZHEPiHVYEwAAAHNhdmVkV2lkZ2V0R2VvbWV0cnlxEEMyAdnQywACAAD////4////+AAA
+BV0AAALfAAABKAAAADQAAATKAAACoAAAAAACAAAABVZxEVgLAAAAYXV0b19jb21taXRxEohYEAAA
+AGNvbnRleHRfc2V0dGluZ3NxE11xFChjT3JhbmdlLndpZGdldHMuc2V0dGluZ3MKQ29udGV4dApx
+FSmBcRZ9cRcoWAYAAAB2YWx1ZXNxGH1xGShoBH1xGihYCgAAAGF0dHJfY29sb3JxG1gEAAAAYXJl
+YXEcS2aGcR1YCQAAAGF0dHJfc2l6ZXEeTkr+////hnEfWAoAAABhdHRyX3NoYXBlcSBOSv7///+G
+cSFYCgAAAGF0dHJfbGFiZWxxIk5K/v///4ZxI3VoA0sCdVgEAAAAdGltZXEkR0HWmDN39inQWAUA
+AABtZXRhc3ElfXEmKFgLAAAAbG9nKGFyZWErMSlxJ0sCWA0AAABub256ZXJvKGFyZWEpcShLAXVY
+CgAAAGF0dHJpYnV0ZXNxKX1xKihoHEsCWAEAAABYcStLAlgEAAAARkZNQ3EsSwJYAwAAAElTSXEt
+SwJYAgAAAERDcS5LAlgEAAAAd2luZHEvSwJYAwAAAGRheXEwSwFYBAAAAHRlbXBxMUsCWAQAAABy
+YWlucTJLAlgBAAAAWXEzSwJYBQAAAG1vbnRocTRLAVgCAAAAUkhxNUsCWAMAAABETUNxNksCdXVi
+aBUpgXE3fXE4KGgYfXE5KGgEfXE6KGgbWAUAAABTdGFnZXE7S2WGcTxoHk5K/v///4ZxPWggTkr+
+////hnE+aCJOSv7///+GcT91aANLAnVoJEdB1pgzY9JRxmglfXFAKFgEAAAAVGltZXFBSwJYBgAA
+AFN0cmFpbnFCSwNYCwAAAHN0cmFpbi90aW1lcUNLA1gCAAAAaWRxREsDWAUAAABpbWFnZXFFSwNY
+DwAAAFNlY29uZGFyeSBTdGFnZXFGSwN1aCl9cUdoO0sBc3ViaBUpgXFIfXFJKGgYfXFKKGgEfXFL
+KGgbWAcAAABIZWFsaW5ncUxLZYZxTWgeTkr+////hnFOaCBOSv7///+GcU9oIk5K/v///4ZxUHVo
+A0sCdWgkR0HWmDNIaCvUaCV9cVEoWAMAAABBZ2VxUksCaEJLA1gKAAAASW1hZ2UgTmFtZXFTSwNY
+BQAAAEltYWdlcVRLA1gFAAAATW91c2VxVUsDWAMAAABET0JxVksDWAYAAABHZW5kZXJxV0sBWAoA
+AABJbWFnZSBEYXRlcVhLA3VoKX1xWWhMSwFzdWJldS4=
+</properties>
+		<properties format="literal" node_id="2">{'__version__': 1, 'auto_save': True, 'last_filter': 'Tab-separated values (*.tab *.tsv *.tab.gz *.tsv.gz *.tab.bz2 *.tsv.bz2 *.tab.xz *.tsv.xz)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x02\x00\x00\x00\x00\x022\x00\x00\x01"\x00\x00\x03#\x00\x00\x01\x9e\x00\x00\x025\x00\x00\x01&lt;\x00\x00\x03 \x00\x00\x01\x9b\x00\x00\x00\x00\x00\x00\x00\x00\x05V', 'last_dir': 'C:/projeGelistirme/emre_balci'}</properties>
+	</node_properties>
+</scheme>
